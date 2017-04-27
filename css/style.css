@@ -7,12 +7,21 @@ body{
     background-image: url('../img/bg.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
+<<<<<<< HEAD
 	margin:0;
+=======
+<<<<<<< HEAD
+	margin:0;
+=======
+
+>>>>>>> ae5fda4e0f60c3b900c0a26ec949f1b11aa9ace4
 }
 
 body {
   max-width: 1920px;
   max-height: 1136px;
+
+>>>>>>> 0c99012e950d62ae70fae01425d45e9fa7d2e3fc
 }
 
 #container{
@@ -20,8 +29,8 @@ body {
 	margin:0 auto;
 	padding:50px 20px;
 	width:80%;
-	background-image: url("../img/qbg.png"), linear-gradient(to right,transparent, white, white, transparent);
-	background-repeat: no-repeat;
+	background-color:#ffffff;
+	background:linear-gradient(to right,transparent, white, white, transparent);
 }
 #container h1{
 	text-align:center;
