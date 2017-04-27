@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>BONETROUSLE</title>
+<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+<style>
+body{
+	background-color:#000;
+	color:#fff;
+	font-family:Papyrus;
+	font-size:24px;
+}
+.player{
+	visibility: hidden;
+	position:absolute;
+}
+.dog{
+	width:150px;
+	margin:30px auto;
+}
+.footer{
+	position:fixed;
+	bottom:0;
+	right:0;
+	padding:5px 20px;
+	background-color: #222;
+	border-top: 5px solid #333;
+	border-left: 5px solid #333;
+	border-radius: 20px 0 0 0;
+}
+#seconds{
+	font-size: 32px;
+}
+</style>
+</head>
+<body>
+<iframe src="http://www.youtube.com/embed/mqzBv3FYpr0?version=3&amp;autoplay=1&amp;controls=1&amp;playlist=mqzBv3FYpr0&amp;loop=1&amp;showinfo=0" class="player"></iframe>
+
+<div class="dog">
+<img src="annoyingDog.gif" width="150px"></img>
+</div>
+<div style="position:absolute; color:#111; top:63%; left: 24%; font-size:20px;font-family:VT323;">(Reading this hidden text...<br> fills you with determination.)</br></div>
+<div class="footer">
+You've been listening for <span id="seconds">0</span> seconds!
+</div>
+<script>
+var secondsCounted = 0;
+setInterval (function countTime(){
+	++secondsCounted;
+	document.getElementById("seconds").innerHTML = secondsCounted;
+},1000);
+</script>
+<div style="position:fixed; bottom:0; left: 0; font-size:20px;font-family:VT323;">(Bonetrousle and Annoying Dog (C) Toby Fox.<br>I just wanted to get this song on loop.)</div>
+</body>
+</html>
