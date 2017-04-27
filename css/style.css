@@ -9,6 +9,11 @@ body{
     background-attachment: fixed;
 }
 
+body {
+  max-height: 1920px;
+  max-width: 1136px;
+}
+
 #container{
 	width:800px;
 	margin:50px auto;
