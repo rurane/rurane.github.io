@@ -11,8 +11,9 @@ body{
 }
 
 body {
-  max-height: 1920px;
-  max-width: 1136px;
+  max-width: 1920px;
+  max-height: 1136px;
+
 }
 
 #container{
