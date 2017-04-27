@@ -12,7 +12,7 @@ body{
 #container h1{
 	text-align:center;
 	color:#0ab;
-	text-shadow: horizontal-offset vertical-offset blur color;
+	text-shadow: 20px 20px 0px rgba(0,0,0,0.2);
 }
 
 #quoteContainer{
