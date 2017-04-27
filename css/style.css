@@ -10,7 +10,7 @@ body{
 	width:50%;
 }
 #container h1{
-	text-align: center
+	text-align:center;
 	color: #f0ead6;
 	text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
 }
