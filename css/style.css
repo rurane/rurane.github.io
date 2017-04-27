@@ -20,8 +20,8 @@ body {
 	margin:0 auto;
 	padding:50px 20px;
 	width:80%;
-	background-color:#ffffff;
-	background:linear-gradient(to right,transparent, white, white, transparent);
+	background-image: url("../img/qbg.png"), linear-gradient(to right,transparent, white, white, transparent);
+	background-repeat: no-repeat;
 }
 #container h1{
 	text-align:center;
