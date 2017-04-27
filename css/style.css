@@ -26,7 +26,8 @@ body {
 	padding:50px 20px;
 	width:80%;
 	background-color:#ffffff;
-	background:linear-gradient(to right,transparent, white, white, transparent);
+	background-image: url("../img/qbg.png");
+	background-image: url("../img/qbg.png"), linear-gradient(to right,transparent, white, white, transparent);
 }
 #container h1{
 	text-align:center;
