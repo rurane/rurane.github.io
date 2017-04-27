@@ -7,13 +7,16 @@ body{
     background-image: url('../img/bg.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
+	margin:0;
 }
 
 #container{
 	width:800px;
-	margin:50px auto;
-	padding: 20px;
-	width:50%;
+	margin:0 auto;
+	padding:50px 20px;
+	width:80%;
+	background-color:#ffffff;
+	background:linear-gradient(to right,transparent, white, white, transparent);
 }
 #container h1{
 	text-align:center;
@@ -27,7 +30,6 @@ body{
 }
 #quoteContainer{
 	width:75%;
-	background: #fff;
 	padding:10px;
 	margin:30px auto;
 	text-align: center;
