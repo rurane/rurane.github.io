@@ -12,7 +12,8 @@ body{
 #container h1{
 	text-align:center;
 	color:#0ab;
-	text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+	text-shadow: shadow1, shadow2, shadow3;
+	text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 #quoteContainer{
