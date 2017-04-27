@@ -8,6 +8,15 @@
 			quote: "Deep in a fan-led attack on titan forums defending Naruto in fluent Japanese",
 			name:"Rurane"
 	    },
+								{
+			quote: "Trying to be funny",
+			name:"Rurane"
+	    },
+								{
+			quote: "Creating more Quotes",
+			name:"Rurane"
+	    },
+
 					{
 			quote: "Caring for his horses at the stable",
 			name:"Rurane"
@@ -77,6 +86,14 @@
 					{
 			quote: "Stroking his body pillow, deafened by Nightcore",
 			name:"-Rurane"
+	    },
+								{
+			quote: "Failing to mod Don't Starve Together",
+			name:"Rurane"
+	    },
+								{
+			quote: "Slipping out a tree, hungover",
+			name:"Rurane"
 	    },
 			
 	
