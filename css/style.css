@@ -41,6 +41,11 @@ body{
 	padding:5px;
 	text-decoration: none;
 	text-align: center;
+	animation:rot 1s linear 0s infinite;
+}
+@keyframes rot{
+	0%{-webkit-filter:hue-rotate(0deg);filter:hue-rotate(0deg);}
+	100%{-webkit-filter:hue-rotate(360deg);filter:hue-rotate(360deg);}
 }
 
 #quoteButton:hover{
