@@ -118,6 +118,16 @@ body{
 	text-align: center;
 }
 
+.fabulousContainer{
+	background-image:url("../img/netscape.gif");
+	background-color:#0000ff;
+	padding:200px 0;
+	margin:0;
+	width:100%;
+	min-height:500px;
+	color:#ffff00;
+}
+
 /*MEDIA QUERIES*/
 @media screen and(max-width:760px){
 	#quoteButton,#addNew{
