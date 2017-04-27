@@ -1,9 +1,38 @@
 	$(document).ready(function(){
 		var quoteSource=[
 		{
-			quote: "in teamspeak",
+			quote: "Teamspeak",
+			name:"Rurane"
+	    },
+					{
+			quote: "Revising",
+			name:"Rurane"
+	    },
+					{
+			quote: "Creating better OC",
 			name:"-Rurane"
 	    },
+					{
+			quote: "C.A.T.S",
+			name:"Everyone"
+	    },
+					{
+			quote: "With Captain Morgan and his two First Mates",
+			name:"A drunken submitter"
+	    },
+					{
+			quote: "Banned from TS for a hard-R",
+			name:"Ben"
+	    },
+					{
+			quote: "Tracking down whoever made the Insta account",
+			name:"Sixth-Form Faculty"
+	    },
+					{
+			quote: "Stroking his body pillow, deafened by Nightcore",
+			name:"-Rurane"
+	    },
+			
 	
 	];
 		
