@@ -128,3 +128,9 @@ body {
 		display: block;
 	}
 }
+
+/* Begin custom cursor */
+* {
+   cursor: url("../img/fundaz.png"), auto;
+}
+/* End custom cursor */
