@@ -3,12 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Rurane</title>
-  
-  
-  
+
       <link rel="stylesheet" href="css/style.css">
 
-  
 </head>
 
 <body>
@@ -43,9 +40,26 @@
 				<a href="https://rurane.github.io/feedback" id="quoteButton">Submit a Location</a>
 			</div><!--end buttonContainer2-->
 			
+			<script>
+			function toggleSecret(){
+				if(document.getElementById('secretContainer').clientHeight == 0 ){
+					document.getElementById('secretContainer').classList.add('secretContainerOpen');
+					console.log("opened");
+				}
+				else{
+					document.getElementById('secretContainer').classList.remove('secretContainerOpen');
+					console.log("closed");
+				}
+			}
+			</script>
+			
 			<div id="buttonContainer">
-				<a href="bonetrousle.html" id="quoteButton"><s>dead meme</s> <span style="font-family:Papyrus;">VERY FUNNY AND ORIGINAL MEME</span></a>
+				<a href="#" id="quoteButton" onclick="toggleSecret();">???</a>
 			</div><!--end buttonContainer-->
+			
+			<div id="secretContainer" class="secretContainer">
+				<img src="img/eric.png" style="margin:0 auto;display:block;height:200px;"></img> 
+			</div>
 	</div><!--end container-->
 	
 	<img src="img/qbg.png" style="height:500px;margin: 100px auto;display:block;"></img>

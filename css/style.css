@@ -121,6 +121,14 @@ body {
 	min-height:500px;
 	color:#ffff00;
 }
+.secretContainer{
+	height:0px;
+	overflow:hidden;
+	transition:height 1s;
+}
+.secretContainerOpen{
+	height:200px;
+}
 
 /*MEDIA QUERIES*/
 @media screen and(max-width:760px){
