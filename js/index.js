@@ -1,10 +1,9 @@
 	$(document).ready(function(){
 		var quoteSource=[
 		{
-			quote: "in teamspeak",
-			name:"-Rurane"
+			quote: "Skype",
+			name:"Rurane"
 	    },
-	
 	];
 		
 
