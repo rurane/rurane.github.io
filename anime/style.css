@@ -1,10 +1,9 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	color: #000;
-	font-weight: 100;
 }
 
 h1{
 	text-align:center;
-	color: #ff0000;
+	font-weight: 100;
 }
