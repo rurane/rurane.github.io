@@ -2,3 +2,8 @@ body{
 	font-family: 'Roboto', sans-serif;
 	color: #000;
 }
+
+#container h1{
+	text-align:center;
+	color: #ff0000;
+}
