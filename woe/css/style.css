@@ -62,7 +62,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 body {
   background-color: #ecf0f1;
-  font-family: helvetica, arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
   font-size: 16px;
   padding-top: 330px;
   -moz-transition: padding-top 0.5s ease;
@@ -87,9 +87,11 @@ header {
   transition: all 0.5s ease;
 }
 header h1 {
+  padding: 150px;
   font-size: 42px;
   color: #fff;
   line-height: 230px;
+  text-shadow: 2px 2px #ff0000;
   text-transform: uppercase;
   font-weight: 100;
   background-image: url("https://github.com/rurane/rurane.github.io/blob/master/img/logo.png?raw=true");
