@@ -72,30 +72,30 @@ body {
 }
 
 header {
-  width: 100%;
-  height: 650px;
-  background-color: #3498db;
-  background-image: url("https://raw.githubusercontent.com/rurane/rurane.github.io/master/img/whatoneath.gif");
-  text-align: center;
-  position: relative;
-  position: fixed;
-  top: 0;
+width: 100%;
+height: 320px;
+background-color: #3498db;
+background-image: url("https://raw.githubusercontent.com/rurane/rurane.github.io/master/img/whatoneath.gif");
+text-align: center;
+position: relative;
+position: fixed;
+top: 0;	
   overflow: hidden;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-header h1 {
-  padding: 150px;
-  font-size: 42px;
-  color: #fff;
-  line-height: 230px;
-  text-shadow: 2px 2px #ff0000;
-  text-transform: uppercase;
-  font-weight: 100;
-  background-image: url("https://github.com/rurane/rurane.github.io/blob/master/img/logo.png?raw=true");
-  background: no-repeat;
+header container img {
+width: 45%;
+height: 45%;
+adding: 100px;
+font-size: 42px;
+color: #fff;
+line-height: 230px;
+text-shadow: 2px 2px #ff0000;
+text-transform: uppercase;
+font-weight: 100;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
