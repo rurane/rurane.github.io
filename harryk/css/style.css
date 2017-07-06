@@ -1,0 +1,43 @@
+
+body {
+  background-image:url('https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg');
+  background-attachment:fixed;
+  background-size: 100;
+  
+}
+
+.heada {
+  color: #00ff00;
+}
+h1 {
+color: yellow;
+}
+
+h2 {
+  color: red;
+}
+.wrapper{
+	width: 850px;
+	margin: 0 auto;
+  margin-top: 140px;
+}
+section{
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: rgba(100,100,100,0.35);
+	@include border-radius(4px);
+	@include box-shadow(0 1px 0 rgba(0,0,0,.2));
+}
+
+h3 {
+  color: #ff00fe;
+}
+
+#yon img{
+width: 45%;
+top: 100px;
+}
+
+.haveyouseen {
+  text-align: center;
+}
