@@ -1,0 +1,73 @@
+
+body{
+	background-color: #ecf0f1;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	padding-top: 0px;
+	@include transition(padding-top .5s ease);
+}
+
+body {
+  background-image:url('https://github.com/rurane/rurane.github.io/blob/master/img/mountainbg.png?raw=true');
+  background-attachment:fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+.yon {
+  background-image:url('https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/13886898_1176021112461563_2882588248385381288_n.jpg?oh=9df2598038524d6dcc2ac5586e6fd803&oe=59C8A0D7');
+  background-attachment: fixed;
+  background-size: 100;
+}
+h1 {
+color: white;
+font-size: 40px;
+}
+
+h2 {
+color: white;
+
+}
+.wrapper{
+	width: 850px;
+	margin: 0 auto;
+  margin-top: 140px;
+}
+section{
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: rgba(100,100,100,0.75);
+	@include border-radius(4px);
+	@include box-shadow(0 1px 0 rgba(0,0,0,.2));
+}
+
+h3 {
+color: white;
+}
+
+#yon img{
+width: 45%;
+top: 100px;
+}
+
+.haveyouseen {
+  text-align: center;
+}
+
+#img img{
+width: 100%;
+top: 100px;
+}
+#img3 img{
+width: 100%;
+top: 100px;
+}
+#img4 img{
+width: 100%;
+top: 100px;
+}
+#img2 img{
+width: 100%;
+top: 100px;
+}
