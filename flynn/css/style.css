@@ -1,0 +1,53 @@
+body {
+  background-image:url('http://icon-park.com/imagefiles/ribbon_green_icon2.png');
+  background-attachment:fixed;
+  background-size: 100;
+  
+}
+.color2 {
+  color: white;
+  font-size: 20px;
+  
+  text-align: center;
+}
+.heada {
+  color: #00ff00;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: white 2px 5px;
+
+}
+.color3 {
+color: red;
+   text-decoration: underline;
+}
+
+h2 {
+  color: white;
+}
+.wrapper{
+	width: 850px;
+	margin: 0 auto;
+  margin-top: 140px;
+}
+section{
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: rgba(100,100,100,0.50);
+	@include border-radius(4px);
+	@include box-shadow(0 1px 0 rgba(0,0,0,.2));
+}
+
+h3 {
+  color: #ff00fe;
+}
+
+#yon img{
+width: 45%;
+top: 100px;
+}
+
+.haveyouseen {
+  text-align: center;
+}
