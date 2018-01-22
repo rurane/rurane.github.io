@@ -1,0 +1,89 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,100,300,900);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+
+body {
+  padding-top: 40px;
+  background-color: #b3b3b3;
+  font-family: 'Roboto', sans-serif;
+}
+
+.album {
+  height: 330px;
+  overflow: hidden;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 3px 0 5px #000000;
+  .blur {
+    display: block;
+    height: 100%;
+    background: white url(https://f4.bcbits.com/img/a1810159296_16.jpg) no-repeat center;
+    background-size: cover;
+    transform: scale(1.2);
+    @include filter(blur(40px));
+    &::after {
+      content: " ";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+  
+  .container {
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right:0;
+  }
+  
+  .info {
+    padding: 50px 350px 50px 50px;
+    color: rgba(255,255,255,0.85);
+    h1, h2, h3 { margin: 0; padding: 0; }
+    .name {
+      font-size: 28px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    .artist { font-weight: 100; }
+    .year {}
+    .rating { font-weight: normal; font-size: 15px; vertical-align: 4px;}
+    hr {
+      border: none;
+      border-top: 1px solid rgba(255,255,255,0.2);
+    }
+  }
+  
+  .songs {
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
+    font-weight: 300;
+    li {
+      float: left;
+      padding: 0 10px;
+      height: 50px;
+      width: 220px;
+      font-size: 16px;
+    }
+  }
+  
+  .art {
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    box-shadow: 0 0 20px #000000;
+    border: 1px solid rgba(255,255,255,0.2);
+      img {
+        display: block;
+        height: 250px;
+        width: 250px;
+      }
+  }
+}
