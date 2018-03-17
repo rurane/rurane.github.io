@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans:300,400');
+
+body, html {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+h2 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.5rem;
+  letterspacing 0.5rem;
+  color: #D1EFFC;
+
+}
+
+
+exoimg {	height: 10vh;
+	position: fixed;
+	overflow: hidden;
+	background-size: cover;
+	background: rgba(0, 0, 0, 0.7);
+  	padding-bottom: 400px;
+
+}
+}
+
+p {
+  margin-top: 1rem;
+}
+
+a {
+  color:#5bc0de;
+}
+
+a:hover {
+  color: #31b0d5;
+  text-decoration: none;
+}
+
+#hm {
+  min-height: 100%;
+}
+
+.heading {
+  color: #FFF;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+}
+
+.middle {
+  color: #FFF;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 100%;
+}
+
+.bg-img1 {
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('https://cdn.discordapp.com/attachments/339956326476021770/411669652867907594/2018-02-09_23.44.04.png');
+}
+
+.bg-img2 {
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('http://gearcraft.us/wp-content/uploads/2015/06/tumblr_nq5mtfDgIw1rpm29co1_500.gif');
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+  position: relative;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 850px;
+}
+
+.card {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .parallax {background-attachment: scroll;}
+  .heading {top: 30%;} 
+  .middle {top: 15%;}
+}
