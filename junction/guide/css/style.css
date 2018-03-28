@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700');
+body {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+.custom-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 15px 0px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.custom-header p {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2rem;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.custom-header.sticky-header {
+  padding: 0px;
+  background-color: #fff;
+  border-bottom: 0px solid #fff;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
+}
+.custom-header.sticky-header p {
+  color: #1D1F20;
+}
+.hero-row {
+  background-image: url(https://media.discordapp.net/attachments/339956326476021770/415019800536809473/2018-02-18_21.19.56.png?width=1202&height=677);
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 100vh;
+}
+.sign1 {
+  background-image: url(https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/7/78/Blank_Sign.png?version=26bb2711af98dc374ab9e799bf50d5ea);
+  background-size: cover;
+  background-position: center;
+}
+.sign2 {
+  background-image: url(https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/7/78/Blank_Sign.png?version=26bb2711af98dc374ab9e799bf50d5ea);
+  background-size: cover;
+  background-position: center;
+}
+.sign1 h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2.0rem;
+  color: #fff;
+  text-shadow: 2px 2px #C8C8C8;
+  padding-top: 10px;
+  padding-left: 90px;
+}
+.sign2 h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px #C8C8C8;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  padding-left: 56px;
+  padding-bottom: 35px;
+}
+.sign2 img {
+  display: block;
+  padding-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.column {
+  float: left;
+  width: 60%;
+}
+.sign3 {
+  background-image: url(https://t6.rbxcdn.com/8be44399c511cbaf807e8dd6bb344f9e);
+  background-size: cover;
+  background-position: center;
+}
+.sign4 {
+  background-image: url(https://t6.rbxcdn.com/8be44399c511cbaf807e8dd6bb344f9e);
+  background-size: cover;
+  background-position: center;
+}
+.sign3 h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2.0rem;
+  color: #000;
+  text-shadow: 2px 2px #000;
+  padding-top: 10px;
+  padding-left: 90px;
+}
+.sign4 h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2rem;
+  color: #000;
+  text-shadow: 2px 2px #000;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  padding-left: 56px;
+  padding-bottom: 35px;
+}
+.sign4 img {
+  display: block;
+  padding-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.sign5 {
+  background-image: url(https://vignette.wikia.nocookie.net/mcmmo/images/b/b7/M_end_stone.png/revision/latest?cb=20151229203040);
+  background-size: cover;
+  background-position: center;
+}
+.sign6 {
+  background-image: url(https://vignette.wikia.nocookie.net/mcmmo/images/b/b7/M_end_stone.png/revision/latest?cb=20151229203040);
+  background-size: cover;
+  background-position: center;
+}
+.sign5 h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2.0rem;
+  color: #000;
+  text-shadow: 2px 2px #000;
+  padding-top: 10px;
+  padding-left: 90px;
+}
+.sign6 h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2rem;
+  color: #000;
+  text-shadow: 2px 2px #000;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  padding-left: 56px;
+  padding-bottom: 35px;
+}
+.sign6 img {
+  display: block;
+  padding-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.introduction h3 {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: #484848;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+a:link {
+  color: #000;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #484848;
+  background-color: transparent;
+  text-decoration: none;
+}
+.introduction hr {
+  color: #C8C8C8;
+}
+.wrapper {
+  max-width: 1150px;
+  display: block;
+  padding: 100px 0px;
+  margin: 0 auto;
+}
+.wrapper p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  color: #1D1F20;
+  line-height: 200%;
+  margin-bottom: 0px;
+}
+.container {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container > div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  /*grow*/
+}
+.column2 {
+  background-image: url(https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/7/78/Blank_Sign.png?version=26bb2711af98dc374ab9e799bf50d5ea);
+  background-size: cover;
+  background-position: center;
+  float: left;
+  width: 50%;
+  background-color: #fff111;
+  height: 110px;
+}
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column2 h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2rem;
+  color: #000;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  padding-left: 50px;
+}
+.white {
+  font-size: 30px;
+  color: #fff;
+}
+.column2 h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2rem;
+  color: #000;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  padding-left: 50px;
+}
+.grid-container2 {
+  height: 111.5px;
+  width: 50px;
+  display: grid;
+  grid-row-gap: 5px;
+  grid-template-columns: auto auto auto auto auto;
+}
+.grid-item2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #B8B8B8;
+}
+.column6 {
+  float: left;
+  width: 50%;
+}
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+}
